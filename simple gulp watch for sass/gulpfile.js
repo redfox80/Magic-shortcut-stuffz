@@ -12,10 +12,10 @@
 //------------------------------
 
 
-//Rellative of absolute path to sass file
+//Rellative or absolute path to sass file
 var src = "./assets/sass/master.sass";
 
-//Rellative of absolute path to output destination
+//Rellative or absolute path to output destination
 var dest = "./redfox80.github.io/css";
 
 
