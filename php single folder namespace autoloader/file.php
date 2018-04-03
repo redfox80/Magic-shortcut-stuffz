@@ -5,7 +5,7 @@
 //Autoload magic
 spl_autoload_register(function ($class_name) {
 
-    $class_name = explode(DIRECTORY_SEPARATOR, $class_name);
+    $class_name = end(explode(DIRECTORY_SEPARATOR, $class_name));
     
-    include end($class_name) . '.php';
+    include $class_name . '.php';
 });
